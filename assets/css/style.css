@@ -5,6 +5,14 @@ html body{
     padding-top: 5vw;
 }
 
+img {
+    margin-top: 2vw;
+}
+
+#img-fluid {
+    max-width: 70%;
+}
+
 #page-title {
     font-weight: bold;
 }
@@ -64,6 +72,7 @@ html body{
 
   div.content p {
       margin-top: 2vw;
+      font-size: 20px;
   }
   
   /* On screens that are less than 700px wide, make the sidebar into a topbar */
@@ -81,6 +90,10 @@ html body{
 
     div.content {
         margin-left: 0;
+    }
+
+    div.content p {
+        font-size: 16px;
     }
   }
   
