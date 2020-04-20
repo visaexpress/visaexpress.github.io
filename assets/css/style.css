@@ -53,7 +53,7 @@ img {
   
   /* Active/current link */
   .sidebar a.active {
-    background-color: yellow;
+    background-color: #FAFF00;
     color: black;
   }
   
@@ -73,7 +73,8 @@ img {
   div.content p {
       margin-top: 2vw;
       font-size: 20px;
-  }
+      font-family: 'Montserrat', sans-serif;
+      }
   
   /* On screens that are less than 700px wide, make the sidebar into a topbar */
   @media screen and (max-width: 700px) {
