@@ -132,3 +132,30 @@ img {
       font-size: 60px;
     }
   }
+
+  @media screen and (min-width: 1400px) {
+    .sidebar {
+      width: 12vw;
+      max-width: 100vw;
+    }
+  
+    div.content h2 {
+      font-size: 40px;
+    }
+
+    div.content h3 {
+      font-size: 30px;
+    }
+
+    div.content p {
+        font-size: 25px;
+    }
+
+    .sidebar a {
+      font-size: 25px;
+    }
+
+    .sidebar h2 {
+      font-size: 40px;
+    }
+  }
